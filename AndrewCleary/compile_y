@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+## Load the required modules
+#module load mpt
+#module load intel-compilers-19
+
+## compile
+
+
+## compile with MPI:
+mpicxx 2DWaveY.cpp -o 2DWaveY
+
+## remove object files if there is any!:
+# rm *.mod
+# rm *.o
+
