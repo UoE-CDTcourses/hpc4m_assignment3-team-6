@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+## Load the required modules
+module load mpt
+module load intel-compilers-19
+
+## compile
+
+
+## compile with MPI:
+mpicxx horizontal_parallel_2DWave.cpp  -o horizontal_parallel_2DWave.exe
+mpicxx vertical_parallel_2DWave.cpp  -o vertical_parallel_2DWave.exe
+
+## remove object files if there is any!:
+# rm *.mod
+# rm *.o
+
